@@ -6,8 +6,8 @@
 
 |                       |                                                         |
 |-----------------------|---------------------------------------------------------|
-| Version               | 1.0.1                                                   |
-| Vendor Products       | Greenbone Community Edition (GCE). Others are untested. |
+| Version               | 1.0.0                                                   |
+| Vendor Products       | pfSense 2.5.0+                                          |
 | Visible in Splunk Web | No.                                                     |
 
 The **pfSense Add-on for Splunk** collects operational log data from pfSense Firewalls. You can install the Add-on on a forwarder to send data from pfSense to a Splunk Enterprise indexer or group of indexers. You can also use the add-on to provide data for other apps, such as Splunk Enterprise Security.
