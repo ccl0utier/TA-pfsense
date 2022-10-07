@@ -1,0 +1,6 @@
+vendor_action,action
+pass,allowed
+block,blocked
+authenticated,success
+Peer Connection Initiated,success
+could not authenticate,failure
