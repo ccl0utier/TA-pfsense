@@ -40,7 +40,7 @@ The **pfSense Add-on for Splunk** provides index-time, search-time and CIM norma
 | pfsense:kernel              | pfSense Kernel Logs                                     | N/A                              |
 | pfsense:check_reload_status | pfSense Filter Reload Logs                              | N/A                              |
 
-Note: For Suricata data, use the [Suricata Add-on]().
+Note: For Suricata data, use the [Suricata Add-on](https://github.com/ccl0utier/TA-suricata).
 
 ### Compatibility
 
