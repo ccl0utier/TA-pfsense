@@ -58,7 +58,7 @@ This version of the add-on is compatible with the following platform, OS and CIM
 
 You can install the **pfSense Add-on for Splunk** with Splunk Web or from the command line. You can install the add-on onto any type of Splunk Enterprise instance (indexer, search head, or forwarder).
 
-1. Download the add-on from [Github](https://github.com/ccloutier-splunk/TA-gvm/releases) or alternatively clone the project using your `git` client.
+1. Download the add-on from [Github](https://github.com/ccl0utier/TA-pfsense/releases) or alternatively clone the project using your `git` client.
 2. Determine where and how to install this add-on in your deployment.
 3. Perform any prerequisite steps before installing.
 4. Complete your installation.
