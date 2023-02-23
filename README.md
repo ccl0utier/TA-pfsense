@@ -12,11 +12,6 @@
 
 The **pfSense Add-on for Splunk** collects operational log data from pfSense Firewalls. You can install the Add-on on a forwarder to send data from pfSense to a Splunk Enterprise indexer or group of indexers. You can also use the add-on to provide data for other apps, such as Splunk Enterprise Security.
 
-The **pfSense Add-on for Splunk** collects the following data using file inputs:
-
-- Vulnerability Scan results sent from GVM to Splunk as scan tasks are completed.
-- Changes to various GVM services log files in the `/var/log/gvm` directory and subdirectories.
-
 ### Source types for the pfSense Add-on for Splunk
 
 The **pfSense Add-on for Splunk** provides index-time, search-time and CIM normalization for pfSense authentication, firewall, ids and other operational data in the following formats:
