@@ -6,7 +6,7 @@
 
 |                       |                                                         |
 |-----------------------|---------------------------------------------------------|
-| Version               | 1.0.0                                                   |
+| Version               | 1.0.1                                                   |
 | Vendor Products       | pfSense 2.5.0+                                          |
 | Visible in Splunk Web | No.                                                     |
 
@@ -16,24 +16,25 @@ The **pfSense Add-on for Splunk** collects operational log data from pfSense Fir
 
 The **pfSense Add-on for Splunk** provides index-time, search-time and CIM normalization for pfSense authentication, firewall, ids and other operational data in the following formats:
 
-| Source Type                 | Description                                             | CIM Data Models                  |
-|-----------------------------|---------------------------------------------------------|----------------------------------|
-| pfsense:filterlog           | pfSense Firewall Logs                                   | Network Traffic                  |
-| pfsense:dhcpd               | pfSense DHCP Logs                                       | Network Sessions                 |
-| pfsense:openvpn             | pfSense OpenVPN Logs                                    | Network Sessions, Authentication |
-| pfsense:nginx               | pfSense NGINX Logs                                      | N/A                              |
-| pfsense:unbound             | pfSense DNS Resolver Logs                               | Network Resolution               |
-| pfsense:snort               | pfSense Snort IDS Logs                                  | Intrusion Detection              |
-| pfsense:php                 | pfSense WebConfigurator UI PHP Logs                     | N/A                              |
-| pfsense:php-fpm             | pfSense WebConfigurator UI PHP FPM Logs                 | Authentication, Network Sessions |
-| pfsense:syslogd             | pfSense Syslog Logs                                     | N/A                              |
-| pfsense:filterdns           | pfSense DNS Filtering Logs                              | Network Resolution               |
-| pfsense:/usr/sbin/cron      | pfSense CRON Logs                                       | Endpoint.Processes               |
-| pfsense:dnsmasq             | pfSense DNS Forwarder Logs                              | Network Resolution               |
-| pfsense:ntpd                | pfSense NTP Daemon Logs                                 | N/A                              |
-| pfsense:miniupnpd           | pfSense MiniUPNP Logs                                   | N/A                              |
-| pfsense:kernel              | pfSense Kernel Logs                                     | N/A                              |
-| pfsense:check_reload_status | pfSense Filter Reload Logs                              | N/A                              |
+| Source Type                 | Description                                             | CIM Data Models                             |
+|-----------------------------|---------------------------------------------------------|---------------------------------------------|
+| pfsense:filterlog           | pfSense Firewall Logs                                   | Network Traffic                             |
+| pfsense:dhcpd               | pfSense DHCP Logs                                       | Network Sessions                            |
+| pfsense:openvpn             | pfSense OpenVPN Logs                                    | Network Sessions, Authentication            |
+| pfsense:nginx               | pfSense NGINX Logs                                      | N/A                                         |
+| pfsense:unbound             | pfSense DNS Resolver Logs                               | Network Resolution                          |
+| pfsense:snort               | pfSense Snort IDS Logs                                  | Intrusion Detection                         |
+| pfsense:php                 | pfSense WebConfigurator UI PHP Logs                     | N/A                                         |
+| pfsense:php-fpm             | pfSense WebConfigurator UI PHP FPM Logs                 | Authentication, Network Sessions            |
+| pfsense:syslogd             | pfSense Syslog Logs                                     | N/A                                         |
+| pfsense:filterdns           | pfSense DNS Filtering Logs                              | Network Resolution                          |
+| pfsense:/usr/sbin/cron      | pfSense CRON Logs                                       | Endpoint.Processes                          |
+| pfsense:dnsmasq             | pfSense DNS Forwarder Logs                              | Network Resolution                          |
+| pfsense:ntpd                | pfSense NTP Daemon Logs                                 | N/A                                         |
+| pfsense:miniupnpd           | pfSense MiniUPNP Logs                                   | N/A                                         |
+| pfsense:kernel              | pfSense Kernel Logs                                     | N/A                                         |
+| pfsense:check_reload_status | pfSense Filter Reload Logs                              | N/A                                         |
+| pfsense:reboot              | pfSense Reboot Events                                   | All_Changes.Network_Changes.Device_Restarts |
 
 Note: For Suricata data, use the [Suricata Add-on](https://github.com/ccl0utier/TA-suricata).
 
